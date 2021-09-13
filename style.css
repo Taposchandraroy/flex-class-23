@@ -1,0 +1,249 @@
+.header{
+    background-color: #000;
+}
+.header-menu{
+    width: 1200px;
+    color: #fff;
+    margin: auto;
+}
+.logo {
+	display: inline-block;
+	margin-left: 100px;
+    margin-top: 10px;
+}
+.logo img{
+    display: inline-block;
+    width: 100px;
+}
+
+.main-menu{}
+.mein-menu ul{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -150px;
+   
+}
+.mein-menu li {
+ flex-grow: 1;
+
+}
+.mein-menu li a {
+	text-decoration: none;
+	display: block;
+	padding: 8px 10px;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	margin-left: 20px;
+	margin-top: 19px;
+}
+
+/* min-body */
+.min-body{
+    display: flex;
+    width: 1300px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.lfwf-logo{
+    width: 335px;
+    background-color:#ddd ;
+    height: 600px;
+    margin-right: -20px;
+    border-left: 2px solid red;
+   
+}
+.lfwf-logo img {
+	width: 250px;
+	justify-content: center;
+	margin-left: 22px;
+}
+
+/* item css */
+.item-row{
+    padding: 20px;
+    width: 1000px;
+    display: flex;
+   flex-wrap: wrap;
+  
+}
+h5 {
+	background-color: red;
+	color: #fff;
+	display: inline-block;
+	height: 35px;
+	margin-bottom: 0px;
+  
+}
+.item1{
+    border: 1px solid green;
+    width: 275px;
+    height: 200px;
+   margin: 20px;
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+.item2{
+    border: 1px solid green;
+    width: 275px;
+   height: 200px;
+    margin: 20px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.item3{
+    border: 1px solid green;
+    width: 275px;
+   height: 200px;
+    margin: 20px;
+    display: flex;
+    align-items:flex-end;
+   justify-content:flex-end;
+}
+
+.item4{
+    border: 1px solid green;
+    width: 275px;
+    height: 160px;
+    margin: 20px;
+    display: flex;
+    flex-basis: 22%;
+   align-items:center;
+   justify-content:center;
+
+   
+}
+
+.item5{
+    border: 1px solid green;
+    width: 275px;
+    height: 160px;
+    margin: 20px;
+    display: flex;
+   flex-basis: 43%;
+   align-items: center;
+
+  
+}
+
+.item6{
+    border: 1px solid green;
+    width: 275px;
+    height: 160px;
+    margin: 20px;
+    display: flex;
+    flex-basis: 22%;
+    align-items:center;
+    justify-content:center;
+  
+}
+ p {
+	padding-left: 17px;
+}
+
+
+/*  */
+h6 {
+	background-color: red;
+	color: #fff;
+	display: inline-block;
+	height: 29px;
+	margin-bottom: 0px;
+	border: 1px solid green;
+	width: 36px;
+	
+}
+.item7 {
+	border: 1px solid green;
+	width: 275px;
+	height: 200px;
+	margin: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	padding: 10px;
+}
+
+.item8 {
+	border: 1px solid green;
+	width: 275px;
+	height: 200px;
+	margin: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	padding: 10px;
+}
+
+.item9 {
+	border: 1px solid green;
+	width: 275px;
+	height: 200px;
+	margin: 20px;
+	display: flex;
+	padding: 18px;
+}
+.conten-itemt{
+    display: flex;
+    justify-content: center;
+}
+
+.content-item1 {
+	display: flex;
+	align-items: flex-start;
+	
+}
+
+.content-item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-item3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.flex-btn {
+	background-color: red;
+	color: #fff;
+	
+	height: 34px;
+	margin-bottom: 0px;
+	border: 1px solid green;
+	width: 73px;
+	justify-content: center;
+	display: flex;
+}
+
+/* footer css */
+.footer-section {
+	background-color: #000;
+	height: 61px;
+}
+.footer-section ul{
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   
+}
+.footer-section ul li{
+    flex-grow: 0;
+}
+.footer-section ul li a {
+	text-decoration: none;
+	padding: 10px 15px;
+	line-height: 38px;
+	display: block;
+	color: #fff;
+	border-bottom: 2px solid #ddd;
+	margin-left: 17px;
+	margin-top: -9px;
+	height: 49px;
+}
